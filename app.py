@@ -21,7 +21,10 @@ DB_HOST         =   os.getenv("DB_HOST")
 DB_PORT         =   os.getenv("DB_PORT")
 
 
+<<<<<<< HEAD
 #
+=======
+>>>>>>> f4c56c63089cf08821ab1cb3362845cd81cb3322
 postgres_connection = psycopg2.connect(
     dbname=DB_NAME,
     user=DB_USERNAME,
