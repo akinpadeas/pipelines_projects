@@ -53,7 +53,7 @@ headers = {"X-RapidAPI-Key": API_KEY, "X-RapidAPI-Host": API_HOST}
 #query parameter: for customizing the response provided by the API endpoint
 ###filter with the current season and league
 query_string  =   {'season': SEASON,'league': LEAGUE_ID}
-query_string2  =   {'season': SEASON,'league': LEAGUE_ID,'team':'33'}
+
 ## API request with exception handling
 try:
     api_response = requests.get(url,headers=headers,params=query_string) 
