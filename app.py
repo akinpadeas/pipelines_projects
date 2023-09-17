@@ -20,12 +20,7 @@ DB_PASSWORD     =   os.getenv("DB_PASSWORD")
 DB_HOST         =   os.getenv("DB_HOST")
 DB_PORT         =   os.getenv("DB_PORT")
 
-#DB_NAME="pipeline_1"
-#DB_USERNAME="postgres"
-#DB_PASSWORD="ifeoluwa"
-#DB_HOST="localhost"
-#DB_PORT="5432"
-#
+
 postgres_connection = psycopg2.connect(
     dbname=DB_NAME,
     user=DB_USERNAME,
